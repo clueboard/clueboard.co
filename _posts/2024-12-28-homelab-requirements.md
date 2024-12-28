@@ -42,7 +42,3 @@ Boiling the above down into a list of requirements-
 * Fast(ish) local storage for clustered FS
 
 It looks like I want something that either has 4 NVMe slots, or 1-2 NVMe and 2 SATA. That will give me 1-2 drives for the system drive and 2 drives for the clustered FS.
-
-## Discussions
-
-If you have any thoughts about this, check out the [GitHib Discussions](https://github.com/orgs/clueboard/discussions) I setup. I'd be thrilled to hear from you.
