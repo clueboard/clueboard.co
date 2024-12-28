@@ -7,7 +7,7 @@ disqus:
 google-ID: ''
 
 menu:
-- {name: 'About', url: 'about'}
+- {name: 'About', url: '/about'}
 - {name: 'MILC', url: 'https://milc.clueboard.co/'}
 - {name: 'IoT-FS', url: 'https://iot-fs.clueboard.co/'}
 - {name: 'Gourd', url: 'https://github.com/clueboard/gourd'}
