@@ -21,4 +21,17 @@ layout: default
 
     <p>If you have any thoughts about this, check out the <a href="https://github.com/orgs/clueboard/discussions" target="_blank">GitHib Discussions</a> I setup. I’d be thrilled to hear from you.</p>
   </article>
+
+  <hr>
+
+  <div class="PageNavigation">
+    {% if page.previous.url %}
+        <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+    {% endif %}
+    | <a href="/">Home</a> |
+    {% if page.next.url %}
+        <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+    {% endif %}
+  </div>
+
 </div>
