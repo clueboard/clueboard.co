@@ -5,6 +5,8 @@ author: "Zach White"
 image: network-switch.jpg
 ---
 
+<center>Image: <a href="https://www.flickr.com/photos/small_realm/15995555571/">Data Center</a> by <a href="https://www.flickr.com/photos/small_realm/">Bob Mical</a>. <a href="https://creativecommons.org/licenses/by-nc/2.0/">CC BY-NC 2.0</a></center>
+
 I always find that the best way to make forward progress is to make forward progress. Start making progress in one direction and you will make progress in other directions as well. I have been finding myself in a lot of circular loops as I try to design this system. Today I'm going to make forward progress by focusing on things that will be usable no matter what software I land on.
 
 Let's start by taking a look at networking. My setup today is pretty pedestrian, only a single subnet for all hosts.

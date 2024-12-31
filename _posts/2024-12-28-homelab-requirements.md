@@ -5,6 +5,8 @@ author: "Zach White"
 image: centaur-server-room.jpg
 ---
 
+<center>Image: <a href="https://www.flickr.com/photos/viagallery/2293424530/">Centaur server room</a> by <a href="https://www.flickr.com/photos/viagallery/">VIA Gallery</a>. <a href="https://creativecommons.org/licenses/by/2.0/deed.en">CC BY 2.0</a></center>
+
 Before I get too deep into building a Homelab, I should set out some requirements and a budget. Let's start by thinking about what it is I want to accomplish here.
 
 First and foremost, I want to learn more about Kubernetes, and specifically the CNCF things we use at work. In a practical sense, this makes some choices for me. I want to follow industry standards and recommendations as well, which means I will need to account for Control Plane nodes that are separate from my Workload nodes. I would also like to avoid virtualizing my k8s nodes, because I feel that containers are virtualization enough. This means I will need 4 physical machines at minimum- 1 Control Plane, 3 Workload. Having a single Control Plane node leaves me with a SPOF, but this is just a homelab. 🤷
