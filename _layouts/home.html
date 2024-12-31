@@ -3,6 +3,12 @@ layout: default
 title: Home
 ---
 
+<h1 style="text-align: center">Welcome!</h1>
+
+<p style="text-align: center">Are you new here? Consider starting from the <a href="{{ site.baseurl }}building-a-homelab">first post</a> and reading forward!</p>
+
+<h1 style="text-align: center">Posts</h1>
+
 {% for post in paginator.posts %}
   {% include featured-post.html %}
 {% endfor %}
